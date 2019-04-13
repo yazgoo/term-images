@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require "term-images"
+
+TermImages::Image.new(ARGV[0]).puts
