@@ -4,5 +4,5 @@ git commit -am "$*"
 git push 
 git tag $version 
 git push --tags 
-gem build term-slides.gemspec 
-gem push term-slides-$version.gem
+gem build term-images.gemspec 
+gem push term-images-$version.gem
